@@ -35,15 +35,12 @@ warnings.filterwarnings('ignore')
 # Top 5% samples was selected
 explainer = shap.KernelExplainer(model=regr.predict, data=x.loc[x.Heatwave >= 35.8843], link="identity")
 
-# Set the index of the specific example to explain
-x_idx = 0
-
 # Train SHAP explanation Model
-shap_values = explainer.shap_values(X=x.loc[x.Heatwave >= 45], nsamples=100)
+shap_values = explainer.shap_values(X=x.loc[x.Heatwave >= 35.8843], nsamples=100)
 
 # Generate SHAP plot
 shap.summary_plot(shap_values=shap_values,
-                  features=x.iloc[0:50, :],
+                  features=x.iloc[0:1828, :],
                   show=False  # save image to plt figure frame
                   )
 
