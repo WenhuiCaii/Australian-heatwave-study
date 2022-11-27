@@ -1,5 +1,5 @@
 ﻿# Australian heatwave study
-This repository is for paper "Nexus of heat-vulnerable chronic diseases and heatwave mediated through tri-environmental interactions: a nationwide fine-grained study in Australia"
+This repository is for paper "Nexus of heat-vulnerable chronic diseases and heatwave mediated through tri-environmental interactions: a nationwide fine-grained study in Australia". Now available via https://doi.org/10.1016/j.jenvman.2022.116663 
 
 The heatwave index applied in this paper was generated using [heatwave_original.ipynb](https://github.com/WenhuiCaii/Australian-heatwave-study/blob/main/heatwave_original.ipynb)
 
